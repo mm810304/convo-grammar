@@ -1,0 +1,107 @@
+.card {
+  box-shadow: var(--bs-level3);
+  background-color: var(--light-gray);
+  transition: transform 0.3s linear;
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+  padding-bottom: 5rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.25);
+}
+
+.image {
+  width: 100%;
+  height: 63%;
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  background-color: var(--off-white);
+}
+
+.lessonNumber {
+  font-size: var(--subtitle-xs);
+  color: var(--black);
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.border {
+  border: 2px solid var(--black);
+  padding: .75rem;
+}
+
+.title {
+  font-size: var(--title-small);
+  color: var(--black);
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.card:hover .title {
+  color: var(--base-color);
+}
+
+.card:hover .lessonNumber {
+  color: var(--base-color);
+}
+
+.card:hover .border {
+  border: 2px solid var(--base-color);
+}
+
+
+@media (max-width: 950px) {
+  .card {
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .card {
+    padding-bottom: 5rem;
+  }
+
+  .lessonNumber{
+    margin-left: .5rem;
+  }
+
+  .border {
+    padding: .5rem;
+  }
+
+  .title {
+    font-size: var(--title-xs);
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    padding-bottom: .5rem;
+  }
+
+  .lessonNumber{
+    margin-left: 1.5rem;
+  }
+
+  .border {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    padding-bottom: 3rem;
+  }
+  .lessonNumber{
+    margin-left: .5rem;
+  }
+  .lessonNumber{
+    margin-left: .5rem;
+  }
+
+  .border {
+    padding: .5rem;
+  }
+}
+

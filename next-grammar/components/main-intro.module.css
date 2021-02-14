@@ -1,0 +1,36 @@
+.introContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto var(--margin-medium) auto;
+  text-align: center;
+}
+
+.title {
+  font-size: var(--title-large);
+  margin: 0 0 var(--margin-small) 0;
+  color: var(--base-color);
+}
+
+.description {
+  font-size: var(--subtitle-small);
+  font-weight: 400;
+  margin: 0 0 var(--margin-xs) 0;
+}
+
+.resources {
+  font-size: var(--subtitle-small);
+  margin: 0 0 var(--margin-small) 0;
+  color: var(--black);
+  font-weight: 400;
+}
+
+.resourcesLink {
+  color: var(--comp-color);
+  margin: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.resourcesLink:hover {
+  color: var(--base-color);
+}

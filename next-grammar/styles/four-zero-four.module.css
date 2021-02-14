@@ -1,0 +1,21 @@
+.errorWrapper {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  font-size: var(--title-small);
+}
+
+.takeHome {
+  font-size: var(--subtitle-large);
+  color: var(--base-color);
+}
+
+.takeHome:hover {
+  color: var(--base-color-light);
+}
